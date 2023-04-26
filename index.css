@@ -1,0 +1,178 @@
+
+nav{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    transition: 0.4s !important;
+    z-index: 10;
+    background: transparent;
+    display: flex;
+    justify-content: end !important;
+    align-items: start;
+}
+nav ul{
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent;
+    margin-top: 25px !important;
+    display: flex;
+    justify-content: end !important;
+    align-items: start;
+} 
+nav ul li{
+    list-style: none;
+    background: transparent;
+    margin-top: 20px !important;
+}
+nav ul li a {
+    position: relative !important;
+    margin: 0 15px !important;
+    text-decoration: none !important;
+    letter-spacing: 2px !important;
+    background: none;
+    color: white;
+}
+nav a{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5,7,12,0.5), rgba(5,7,12,0.75)), url(imagengrande.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.logo{
+    position: relative;
+    width: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 1.5s;
+}
+.down{
+    background-color: #222;
+    display: flex;
+    justify-content: end;
+}
+.down ul li{
+    margin-top: 23px !important;
+}
+.imagen1{
+    width: 150px;
+}
+.nosotros{
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(imagengrande.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    color: #fff;
+    padding: 40px;
+    width: 99% !important;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    width: 70%;
+    font-style: oblique;
+}
+.nosotros h3{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+.galeria{
+    display: flex;
+    margin: 10px auto;
+    width: 1300px;
+    height: 430px;
+}
+section img{
+    width: 0px;
+    flex-grow: 3;
+    object-fit: cover;
+    filter: contrast(100%);
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.Texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0;
+
+}
+footer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #222;
+}
+.footer2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 90px;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.Titulo1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.parrafo-1{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parrafo-bloque{
+    display: flex;
+    justify-content: center;
+}
+.Lista1{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.Lista1 > li {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
